@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ProductCard from '../components/ProductCard'
-import products from '../data/products'
+import products from "../data/products.js";
 
 function Products() {
   const [search, setSearch] = useState('')
